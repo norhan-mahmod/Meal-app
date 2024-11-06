@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yummy</title>
+        <link rel="icon" href="./images/logo.png">
+        <link rel="stylesheet" href="./css/all.min.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body class="bg-black">
+
+        <!--side nav menu start-->
+        <nav class="navbar navbar-expand-lg position-fixed top-0 bottom-0 p-0 z-1">
+            <div class="container w-100 h-100 align-items-stretch ">
+                <div class="row">
+                    <div class="col-7 collapse navbar-collapse bg-black align-items-start flex-column justify-content-between text-white" id="navbarNav">
+                        <ul class="navbar-nav d-flex flex-column w-100 overflow-hidden">
+                            <li class="nav-item py-1 item-1">
+                                <a class="nav-link text-white active" aria-current="page" href="#">Search</a>
+                            </li>
+                            <li class="nav-item py-1 item-2">
+                                <a class="nav-link text-white" href="#">Categories</a>
+                            </li>
+                            <li class="nav-item py-1 item-3">
+                                <a class="nav-link text-white" href="#">Area</a>
+                            </li>
+                            <li class="nav-item py-1 item-4">
+                                <a class="nav-link text-white" href="#">Ingrediants</a>
+                            </li>
+                            <li class="nav-item py-1 item-5">
+                                <a class="nav-link text-white" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                        <div class="position-absolute bottom-0 text-center">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-solid fa-globe p-1"></i>
+                            <p>
+                                Copyright Â© 2019 All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-2 d-flex flex-column bg-white justify-content-between">
+                        <div class="py-1">
+                            <img src="./images/logo.png" class="w-100" alt="logo">
+                        </div>
+                        <div class="fs-1 ps-1">
+                            <button class="border-0 bg-transparent setting-btn">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                            <button class="border-0 bg-transparent d-none exit-btn">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <button class="border-0 bg-transparent">
+                                <i class="fa-solid fa-globe p-1"></i>
+                            </button>
+                            <button class="border-0 bg-transparent">
+                                <i class="fa-solid fa-share-nodes p-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </nav>
+        <!--side nav menu end-->
+
+        <!--search inputs start-->
+        <section class="search container my-5 d-none">
+            <div class="row row-cols-2">
+                <div>
+                    <input type="text" class="form-control col bg-black text-white name-search" placeholder="Search By Name">
+                </div>
+                <div>
+                    <input type="text" class="form-control col bg-black text-white first-letter-search" placeholder="Search By First Letter">
+                </div>
+            </div>
+        </section>
+        <!--search inputs end-->
+
+        <!--recipies section start-->
+        <section class="container my-5">
+            <div class="meals-list row row-cols-4 gx-0 gy-2">
+                <!-- <div class="card position-relative overflow-hidden border-0 p-1 bg-black">
+                    <img src="./images/sushi.jpg" class="w-100" alt="logo">
+                    <div class="card-content position-absolute d-flex flex-column align-items-center justify-content-center top-0 bottom-0 start-0 end-0">
+                        <h2>Sushi</h2>
+                    </div>
+                </div> -->
+            </div>
+            <div class="card-data row text-white d-none">
+                <div class="col-4">
+                    <img src="" class="w-100 rounded-3" alt="sushi">
+                    <h2>Sushi</h2>
+                </div>
+                <div class="col-8">
+                    <h2>Instructions</h2>
+                    <p>
+                        STEP 1 TO MAKE SUSHI ROLLS: Pat out some rice. Lay a nori sheet on the mat, shiny-side down. Dip your hands in the vinegared water, then pat handfuls of rice on top in a 1cm thick layer, leaving the furthest edge from you clear. STEP 2 Spread over some Japanese mayonnaise. Use a spoon to spread out a thin layer of mayonnaise down the middle of the rice. STEP 3 Add the filling. Get your child to top the mayonnaise with a line of their favourite fillings – here we’ve used tuna and cucumber. STEP 4 Roll it up. Lift the edge of the mat over the rice, applying a little pressure to keep everything in a tight roll. STEP 5 Stick down the sides like a stamp. When you get to the edge without any rice, brush with a little water and continue to roll into a tight roll. STEP 6 Wrap in cling film. Remove the mat and roll tightly in cling film before a grown-up cuts the sushi into thick slices, then unravel the cling film. STEP 7 TO MAKE PRESSED SUSHI: Layer over some smoked salmon. Line a loaf tin with cling film, then place a thin layer of smoked salmon inside on top of the cling film. STEP 8 Cover with rice and press down. Press about 3cm of rice over the fish, fold the cling film over and press down as much as you can, using another tin if you have one. STEP 9 Tip it out like a sandcastle. Turn block of sushi onto a chopping board. Get a grown-up to cut into fingers, then remove the cling film. STEP 10 TO MAKE SUSHI BALLS: Choose your topping. Get a small square of cling film and place a topping, like half a prawn or a small piece of smoked salmon, on it. Use damp hands to roll walnut-sized balls of rice and place on the topping. STEP 11 Make into tight balls. Bring the corners of the cling film together and tighten into balls by twisting it up, then unwrap and serve
+                    </p>
+                    <h3>Area : <span>Japanese</span></h3>
+                    <h3>Category : <span>Seafood</span></h3>
+                    <h3>Recipes :</h3>
+                    <div class="recipes">
+                        <p class="d-inline-block bg-primary p-2 mx-2 rounded-2">300ml Sushi Rice</p>
+                        <p class="d-inline-block bg-primary p-2 mx-2 rounded-2">100ml Rice wine</p>
+                        <p class="d-inline-block bg-primary p-2 mx-2 rounded-2">2 tbs Caster Sugar</p>
+                        <p class="d-inline-block bg-primary p-2 mx-2 rounded-2">3 tbs Mayonnaise</p>
+                    </div>
+                    <h3>Tags :</h3>
+                    <button type="button" class="btn btn-success">Source</button>
+                    <button type="button" class="btn btn-danger">Youtube</button>
+                </div>
+            </div>
+        </section>
+        <!--recipies section end-->
+
+
+        <!--contact us section start-->
+        <section class="contact-us container my-5 d-none">
+            <div class="row justify-content-center gy-4">
+                <div class="col-5">
+                    <input type="text" class="form-control my-2" placeholder="Enter Your Name">
+                    <div class="p-3 d-none text-center text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-3">
+                        Special characters and numbers not allowed
+                    </div>
+                </div>
+                <div class="col-5">
+                    <input type="text" class="form-control my-2" placeholder="Enter Your Email">
+                    <div class="p-3 d-none text-center text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-3">
+                        Email not valid *exemple@gmail.com
+                    </div>
+                </div>
+                <div class="col-5">
+                    <input type="text" class="form-control my-2" placeholder="Enter Your Phone">
+                    <div class="p-3 d-none text-center text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-3">
+                        Enter valid Phone Number
+                    </div>
+                </div>
+                <div class="col-5">
+                    <input type="number" class="form-control my-2" placeholder="Enter Your Age">
+                    <div class="p-3 d-none text-center text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-3">
+                        Enter valid age
+                    </div>
+                </div>
+                <div class="col-5">
+                    <input type="password" class="form-control my-2" placeholder="Enter Your Password">
+                    <div class="p-3 d-none text-center text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-3">
+                        Enter valid password *Minimum eight characters, at least one letter and one number:*
+                    </div>
+                </div>
+                <div class="col-5">
+                    <input type="password" class="form-control my-2" placeholder="Repassword">
+                    <div class="p-3 d-none text-center text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-3">
+                        Enter valid repassword
+                    </div>
+                </div>
+
+                <div class="col-10 d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-danger disabled">Danger</button>
+                </div>
+            </div>
+        </section>
+        <!--contact us section end-->
+
+
+        <script src="./js/all.min.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
